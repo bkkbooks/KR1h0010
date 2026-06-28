@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR1h0010/v1
+canonical_location: https://kanripo.org/bkk/KR1h0010/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 論語拾遺
+  date: '2016-04-12 13:59:15.375628'
+  source:
+    repository: kanripo
+    path: KR1h0010
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1h0010_000.yaml, hash: 'sha256:cccf23d073b3faeb84f1c8bc3dd7b7964a145a0b9c872936da9334bf8bcd4fcd'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1h0010_000.markers.yaml, hash: 'sha256:3e81fcacb099b9218ebb17eae872bf855e83f343452c3300ac39ab714dfce81e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1h0010_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 4268
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:3828b808256762eeadc46acad5504fa755ce7007e4587570fc4688e4a629d31c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: WYG
